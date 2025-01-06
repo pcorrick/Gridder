@@ -14,7 +14,8 @@ class FieldServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::mix('gridder', __DIR__.'/../dist/mix-manifest.json');
+            Nova::script('gridder', __DIR__.'/../dist/js/field.js');
+            Nova::style('gridder', __DIR__.'/../dist/css/field.css');
         });
     }
 
