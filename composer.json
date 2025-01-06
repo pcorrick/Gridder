@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Zen0x7\\Gridder\\FieldServiceProvider"
+                "Zen0x7\\Gridder\\GridderServiceProvider"
             ]
         }
     },

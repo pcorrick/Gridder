@@ -11,6 +11,11 @@
     @apply flex-col !important;
 }
 
+.gridder-stack > div {
+    width: 100% !important;
+    @apply mb-2 mt-0;
+}
+
 /**
     Grids
  */
