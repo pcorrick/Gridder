@@ -11,5 +11,5 @@ mix
   .postCss('resources/css/field.css', 'css', [
       require('tailwindcss'),
   ])
-  .alias({ '@': path.join(__dirname, '../../vendor/laravel/nova/resources/js') })
+  .alias({ '@': path.join(__dirname, 'vendor/laravel/nova/resources/js') })
   .nova('zen0x7/gridder')
