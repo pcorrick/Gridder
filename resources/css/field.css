@@ -3,10 +3,6 @@
     @apply grid !important;
 }
 
-.gridder-field {
-    @apply border-t-0 !important;
-}
-
 .gridder-stack {
     @apply flex-col !important;
 }
